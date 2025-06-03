@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DVD_rental": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental
 {
-    internal class AppConfig
+    public class AppConfig
     {
         public static IConfiguration Configuration { get; set; }
         static AppConfig()
@@ -25,7 +25,7 @@ namespace DVD_rental
 
         public static string? GetConnectionString()
         {
-            return Configuration.GetConnectionString("DefaultConnection");
+            return Configuration.GetConnectionString("Rental_DB");
 
         }
 

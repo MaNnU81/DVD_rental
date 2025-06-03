@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class Address
+    public class Address
     {
         public int Id { get; set; } 
         public string Address_1 { get; set; } 

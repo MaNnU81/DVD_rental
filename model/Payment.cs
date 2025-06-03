@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class Payment
+    public class Payment
     {
 
         public int Id { get; set; }
@@ -17,5 +17,7 @@ namespace DVD_rental.model
         public decimal Amount { get; set; } // Payment amount
 
         public DateTime Payment_Date { get; set; } // Date of payment
+        public Rental Rental { get; set; } = new Rental();
+
     }
 }

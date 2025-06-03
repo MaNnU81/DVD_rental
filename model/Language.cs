@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class Language
+    public class Language
     {
-        public int id { get; set; } 
-        public string name { get; set; }
-        public DateTime last_update { get; set; } = DateTime.Now; 
+        public int Id { get; set; } 
+        public string Name { get; set; }
+        public DateTime Last_update { get; set; } = DateTime.Now; 
     }
 }

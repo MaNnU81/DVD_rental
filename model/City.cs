@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class City
+    public class City
     {
         public int Id { get; set; } // Unique identifier for the city
         public string City_Name { get; set; } // Name of the city

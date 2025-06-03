@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class Customer
+    public class Customer
     {
         public int Id { get; set; } 
         public int Store_Id { get; set; } 

@@ -14,6 +14,8 @@ namespace DVD_rental
             //var connectionString = configuration.GetConnectionString("pippodb");
             //Console.WriteLine($"Connection String: {connectionString}");
 
+            var connectionString = AppConfig.GetConnectionString();
+
 
         }
 

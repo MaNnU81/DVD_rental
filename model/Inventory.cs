@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class Inventory
+    public class Inventory
     {
 
         public int Id { get; set; } 
@@ -18,7 +18,7 @@ namespace DVD_rental.model
 
         public Film Film { get; set; }
         public Store Store { get; set; }
-        public ICollection<Rental> Rentals { get; set; }
+        public List<Rental> Rentals { get; set; }
 
     }
 }

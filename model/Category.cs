@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class Category
+    public class Category
     {
         public int Id { get; set; } 
         public string Name { get; set; }
        
 
 
-        public ICollection<Film> Films { get; set; }
+        public List<Film> Films { get; set; }
 
     }
 }

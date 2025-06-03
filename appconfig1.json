@@ -1,2 +1,0 @@
-{
-  "ConnectionStrings": {"pippodb": "Host=localhost;Port=5432;Database=rental;Username=postgres;Password=Diva"};

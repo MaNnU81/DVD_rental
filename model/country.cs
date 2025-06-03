@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVD_rental.model
 {
-    internal class country
+    internal class Country
     {
         public int Id { get; set; } 
         public string Country_Name { get; set; } 
